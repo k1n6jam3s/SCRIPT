@@ -1,0 +1,373 @@
+FILE SYSTEM
+
+HD
+
+
+passwd
+
+
+man
+man -k
+
+ls -l -a -R -r
+
+
+
+touch - create empty file or update timestamp
+rm - remove file (or folder if used recursive)
+mv - move file or folder, used to rename
+cp - copies file (or folder used recursively)
+
+mkdir - make directory
+rmdir - remove folder must be emty to rmdir
+
+
+
+
+
+
+tar - tape archive
+zip - 
+gzip - compression
+bzip2 - compression
+
+
+---
+
+
+gzip - gunzip
+bzip2 - bunzip
+zip  - unzip
+
+
+
+tar -cf
+tar -xf
+file.tar.gz = file.tgz
+
+tar - 2xf gzip
+tar - jcf bzip
+
+file.tar.bz2
+file.tbz
+
+
+
+tar -cvzf file.tgz file1 file2
+tar -xvzf file.tgz
+
+
+
+tar - cvjf file.tbz file1 file 2
+tar - xvjf file.tbz
+
+
+
+
++++++++++++++++
+
+
+
+
+
+less - read file
+head/tail - view begining or end of file
+find - locate file on system
+greo - search for string in a file
+sort - organize
+cut - manipulate data by column
+wc - word count
+
+
+regex
+
+^ - begining of line
+$ - end of line
+. - any single character
+
+
+
+
+find . -type <-f -d>
+find . -name "file"
+
+cut -d" " -f3 file3.txt | cut -c2
+
+field3 and column 2 
+
+> - copy to new file
+>> - copy to existing
+
+
+
+
+ronelordonio@ronelordonio ~/Documents $ wc file3.txt 
+ 4 18 85 file3.txt
+ronelordonio@ronelordonio ~/Documents $ ^C
+
+
+4 lines 18 words 85 characters
+
+
+
+Grow the carrots first then sell them for money
+
+
+
+
+=========================
+turn command into script
+========================
+
+
+
+pico/nan - same interface on most system
+
+
+
+interpreter
+===========
+/bin/sh
+/bin/bash
+
+
+
+Variables
+---------
+
+$anyname
+
+$1 = first argument
+$2 = second argument
+$? = exit code
+
+
+cp file location
+
+file -1st arg
+location arg
+
+
+echo = print
+for  = loop
+if   = condition
+
+
+
+
+#!/bin/bash
+
+VAR1="My Foot"
+
+echo $VAR1
+
+echo "now we'll add your part..."
+echo ""
+echo "$VAR1 added to $1 makes for a weird soup.   
+
+
+
+http://download.virtualbox.org/virtualbox/debian/dists/xenial/contrib/binary-amd64/Packages
+
+http://download.virtualbox.org/virtualbox/debian/dists/xenial/contrib/binary-amd64/Packages
+
+
+
+======================================================
+
+
+sudo useradd redordonio
+sudo groupadd family
+cat /etc/group/
+sudo cat /etc/shadow
+sudo usermod -a -G family redordonio
+sudo userdel -r <user>
+gpasswd -d user grou
+deluser <user> <group>
+
+
+-------------------------------
+
+chmod 777 gold.txt
+
+sudo chown redordonio gold.txt 
+
+
+sudo chown redordonio:captain gold.txt 
+
+sudo chown :pirate gold.txt 
+
+
+---------------------------
+
+
+
+
+ln -s file location_for_link
+
+
+lrwxrwxrwx 1 root         root           10 Feb  5 19:41 diamond.txt -> rubies.txt
+
+
+/tmp - short term storage, gets erase on boot
+/var/tmp - same but doesnt get delete
+/var/ - file that change often mail,logs,etc
+/tmp - all user can write and delete all files
+
+chmod o+t folder
+chmode 1777 folder
+chmode 0777 folder
+
+set sticky bit, only user can delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
